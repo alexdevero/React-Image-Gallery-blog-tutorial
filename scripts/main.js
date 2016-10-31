@@ -21,7 +21,7 @@ let imgUrls = [
 class GalleryImage extends React.Component {
   render() {
     return(
-      <img className={this.props.className} src={this.props.src} alt={this.props.alt} onClick={this.props.onClick} />
+      <img className={this.props.className} src={this.props.src} alt={this.props.alt} />
     )
   }
 }
