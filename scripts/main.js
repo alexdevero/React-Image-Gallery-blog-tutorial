@@ -1,5 +1,8 @@
-let galleryContainer = document.querySelector('.react-gallery'),
-    imgUrls = [
+// Cache gallery container
+const galleryContainer = document.querySelector('.react-gallery');
+
+// Create new array with URLs for images
+let imgUrls = [
   'https://source.unsplash.com/3Z70SDuYs5g/800x600',
   'https://source.unsplash.com/01vFmYAOqQ0/800x600',
   'https://source.unsplash.com/2Bjq3A7rGn4/800x600',
@@ -23,6 +26,7 @@ class GalleryImage extends React.Component {
   }
 }
 
+// Component for gallery modal
 class GalleryModal extends React.Component {
   render() {
     if (this.props.isOpen === false) {
@@ -78,6 +82,7 @@ class Gallery extends React.Component{
     )
   }
   
+  // Function for opening modal dialog
   openModal(url, e) {
      this.setState({
        showModal: true,
@@ -86,6 +91,7 @@ class Gallery extends React.Component{
      console.log(url)
    };
 
+  // Function for closing modal dialog
   closeModal() {
     this.setState({
       showModal: false,
