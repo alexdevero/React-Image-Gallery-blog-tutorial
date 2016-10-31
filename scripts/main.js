@@ -88,7 +88,6 @@ class Gallery extends React.Component{
        showModal: true,
        url: url
      })
-     console.log(url)
    };
 
   // Function for closing modal dialog
