@@ -1,5 +1,5 @@
 # React-Image-Gallery
-Repository for How to Learn React and Create Stunning Image Gallery tutorial on [Alex Devero Blog](http://blog.alexdevero.com/).
+Repository for How to Learn React and Create Stunning Image Gallery tutorial on [Alex Devero Blog](http://blog.alexdevero.com/learn-react-practice-create-gallery/).
 
 ## Assets:
 - Bootstrap 4 alpha framework hosted on [CDN](https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap.min.css)
