@@ -8,4 +8,4 @@ Repository for How to Learn React and Create Stunning Image Gallery tutorial on 
 
 ## Links:
 - Live demo on [CodePen](http://codepen.io/alexdevero/pen/pEXjmJ)
-- Tutorial on [Alex Devero Blog](http://blog.alexdevero.com/)
+- Tutorial on [Alex Devero Blog](http://blog.alexdevero.com/learn-react-practice-create-gallery/)
